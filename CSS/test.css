@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc; /* 背景色 */
+	}
+
+/*-----------------------------------
+containerの表現
+------------------------------------*/
+#container {
+	width: 980px; /* コンテナの幅 */
+	margin: 0 auto; /* センタリング */
+	background-color: #ffffff; /* コンテナの背景色 */
+	border-left: 2px #000000 solid; /* コンテナの左境界線 */
+	border-right: 1px #c0c0c0 solid; /* コンテナの右境界線 */
+}
+/*-----------------------------------
+headerの表現
+------------------------------------*/
+/* --- ヘッダ --- */
+#header {
+	position: relative; /* 相対配置（ガイドメニューのために設定） */
+	width: 100%; /* IE 6のために幅の指定が必要 */
+	margin: 0 10px 20px; /* ヘッダのマージン（上、左右、下） */
+	padding: 10px 0 0; /* ヘッダのパディング（上、左右、下） */
+	font-size: x-Large; /* 全体の文字サイズ */
+}
+/*-----------------------------------
+contentの表現
+------------------------------------*/
+#contents {
+	width:80%; /*80%にする*/
+	line-height:150%;	/* 行幅 */
+	font-size:14pt;			/*  フォントサイズ */
+	font-style:bold;		/* フォントスタイル */	
+    margin-top: 0px;		/* マージン：上 */
+	margin-right: 10px;		/* マージン：右 */
+	margin-bottom: 0px;		/* マージン：下 */
+	margin-left: 20px;		/* マージン：左 */
+    text-indent: 1em;      /* インデント調整　文頭の1文字目  */
+}
+
+h2.top {
+    border-bottom: double 10px lightgreen;
+	color: #fff;
+    background-color: blueviolet;		/* 背景色：薄緑 */
+	margin:5px 5px;		/* マージン：上下・左右 */
+	padding: 10px;
+}
+
+.catch {
+	width:80%;
+	line-height:120%;		/* 行幅 */
+	font-size:larger;		/*  フォントサイズ */
+	font-weight: bold;      /* フォントウエイト */
+	margin-top: 20px;	    /* マージン：左 */
+	padding-top: 10px;		/* パディング：10px下 */
+	padding-bottom: 10px;		/* パディング：10px下 */
+	padding-left: 10px;		/* パディング：10px下 */
+	padding-right: 10px;		/* パディング：10px下 */
+	background-color:lightblue;		/* 背景色：白 */
+	margin-bottom: 10px;		/* マージン：下 */
+	
+}
+
+.list {
+	width:80%;
+	margin-left: 10px;		/* マージン：左 */
+	border: 4px blue double;   /* 境界線右　太さ　色 線の形状*/
+	padding-left: 10px;		/* パディング：10px下 */
+}
+
+li {
+		line-height:200%;		/* 行幅 */
+		margin-right: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border:1px solid;
+}
