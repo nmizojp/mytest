@@ -1,6 +1,6 @@
 body {
-	margin: 0;
-	padding: 0;
+	margin: 10;
+	padding: 10;
 	background-color: #cccccc; /* 背景色 */
 	}
 
@@ -38,6 +38,14 @@ contentの表現
 	margin-bottom: 0px;		/* マージン：下 */
 	margin-left: 20px;		/* マージン：左 */
     text-indent: 1em;      /* インデント調整　文頭の1文字目  */
+}
+
+button {
+	height: 36px;
+	font-size: large;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: lightgray;
 }
 
 h2.top {
