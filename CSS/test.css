@@ -46,6 +46,8 @@ button {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: lightgray;
+	border-bottom: ridge 3px black;
+	border-right: ridge 3px black;
 }
 
 h2.top {
@@ -85,3 +87,9 @@ li {
 		margin-bottom: 5px;
 		border:1px solid;
 }
+
+.preparedClass {
+    color: gray;
+    background-color: lightgreen;
+    font-size: x-large;
+    }
